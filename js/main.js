@@ -1,5 +1,6 @@
 //en el archivo de functionViejas esta el evento del formualrio de la pagina de contacto.
 
+
 //CAPTURAS DE ID:
 let productoDiv = document.getElementById("productos")
 let verCatalogo = document.getElementById("verCatalogo1")
