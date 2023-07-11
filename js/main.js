@@ -25,7 +25,7 @@ function mostrarCatalogo(array) {
         //CLASES:
         NuevoProductoDiv.className = "col-12 col-md-2 my-2 w-25 margen-card"
         NuevoProductoDiv.innerHTML = `<div id="${productos.id}" class="card text-center " style="width: 18rem;">
-    <img class="card-img-top img-fluid tamaño" style="height: 200px; "src= "/img/${productos.imagen}" alt="${productos.imagen} de ${productos.categoria}">
+    <img class="card-img-top img-fluid tamaño" style="height: 200px; "src= "./img/${productos.imagen}" alt="${productos.imagen} de ${productos.categoria}">
         <div class="card-body-bg">
             <h4 class="card-title">${productos.producto}</h4>
             <p class= "text-color color-card"> Precio: ${productos.precio}</p>
@@ -66,7 +66,7 @@ function mostrarProductoCarrito(array) {
         <div class="card mb-3" id="productosCarrito${productoparaCarrito.id}">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="/img/${productoparaCarrito.imagen}" class="img-fluid rounded-start img-c" alt="...">
+            <img src="img/${productoparaCarrito.imagen}" class="img-fluid rounded-start img-c" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">

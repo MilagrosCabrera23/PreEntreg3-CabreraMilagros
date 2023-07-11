@@ -3,11 +3,11 @@ let formContact = document.getElementById("formContact")
 formContact.addEventListener("submit", (event) => {
     event.preventDefault();
     setTimeout(() => {
-        alert(`Hemos recibido correctamemte tu consulta,en breve nos comunicaremos contigo`);
+       console.log(`Hemos recibido correctamemte tu consulta,en breve nos comunicaremos contigo`);
         // Redirigir al usuario al index.html
-        window.location.href = "../index.html";
-    })
-});
+        window.location.href = "index.html";
+    },5000)
+})
 
 
 
